@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.cache/
+*.log
+*.log.*
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output
+*.out
+*.test
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+runs/
+checkpoints/
+weights/
+models/
+
+# Data and intermediate results
+datasets/
+cropped_dataset/
+visualized_dataset/
+staff/
+tag_scores.txt
+output_detection.mp4
+
+# Roboflow files
+*.zip
+*.json
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Ignore personal notes or temporary files
+*.bak
+*.tmp
+*.old
+*.swp
+notes.txt
